@@ -71,13 +71,66 @@ let ohutemperatuur = prompt("Sisesta õhutemperatuur")
 function temperatuur () {
     if (ohutemperatuur > 4) {
         console.log("Ei ole jäätumise ohtu")
-    } else if (ohutemperatuur <= 4) {
+    } else {
         console.log("On jäätumise oht")
     }
 }
 
-console.log(temperatuur())
 */
 
+// Ülesanne 2.3
+/*
+let vanus = Number(prompt("Sisesta oma vanus"))
+let sugu = prompt("Sisesta oma sugu")
+let treeninguTyyp = prompt("Siseta treeningu tüüp (1/2/3)")
+let pulsisagedus;
 
+if(sugu == 'm' || sugu == 'M'){
+    pulsisagedus = 220 - vanus
+} else if(sugu == 'n' || sugu == 'N'){
+    pulsisagedus = 206 - 0.88 * vanus
+}
+let minimaalne;
+let maksimaalne;
+
+if (treeninguTyyp == 1) {
+    minimaalne = 0.5 * pulsisagedus
+    maksimaalne = 0.7 * pulsisagedus
+} else if (treeninguTyyp == 2) {
+    minimaalne = 0.7 * pulsisagedus
+    maksimaalne = 0.8 * pulsisagedus
+} else if (treeninguTyyp == 3) {
+    minimaalne = 0.8 * pulsisagedus
+    maksimaalne = 0.87 * pulsisagedus
+}
+
+console.log(`Pulsisagedus peab olema vahemikus ${Math.round(minimaalne)} kuni ${Math.round(maksimaalne)}`)
+*/
+
+// Ülesanne 2.4
+/*
+let valik = prompt('Kas soovite istekohta ise "ise" valida või loosida "loos"?')
+let koht;
+
+if (valik == 'ise') {
+    let kohavalik = prompt('Kas soovite akna "aken" ääres või mujal "muu"')
+    console.log("Valisite ise.")
+    if (kohavalik == 'aken') {
+        koht = 'Aknakoht'
+    }else if (kohavalik == 'muu') {
+        koht = 'Vahekäigukoht'
+    }
+} else if (valik == 'loos') {
+    console.log("Istekoht loositi.")
+    let juhuarv = Math.ceil(Math.random() * 3)
+
+    if (juhuarv == 1) {
+        koht = "Aknakoht"
+    } else {
+        koht = "Vahekäigu koht"
+    }
+}
+
+console.log(koht)
+ */
 
