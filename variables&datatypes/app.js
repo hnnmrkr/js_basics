@@ -156,7 +156,7 @@ for (let kordus = 0; kordus < aratus; kordus++) {
 */
 
 // Ülesanne 3.2
-let ringideArv = prompt("Sisesta ringide arv")
+/* let ringideArv = prompt("Sisesta ringide arv")
 let porgandidKokku = 0
 let ring = 1
 
@@ -170,4 +170,12 @@ while (ring <= ringideArv) {
     }
     ring++
 }
-console.log(`Porgandite koguarv on: ${porgandidKokku}.`)
+console.log(`Porgandite koguarv on: ${porgandidKokku}.`) */
+
+// Ülesanne 3.3
+let taringuteArv = prompt("Täringute arv")
+
+for(let kord = 1; kord <= taringuteArv; kord++){
+    let taring = Math.ceil(Math.random() * 6)
+    console.log(taring)
+}
