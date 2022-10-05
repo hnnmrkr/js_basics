@@ -181,7 +181,7 @@ for(let kord = 1; kord <= taringuteArv; kord++){
 } */
 
 // Ülesanne 3.4
-let poialpoisid = Number(prompt("Mitu pöialpoissi tahab õuna saada? (0-7)"))
+/* let poialpoisid = Number(prompt("Mitu pöialpoissi tahab õuna saada? (0-7)"))
 let lumivalgekeOunad = 14
 let poialpoiss = 1
 while(poialpoiss <= poialpoisid){
@@ -191,4 +191,4 @@ while(poialpoiss <= poialpoisid){
     poialpoiss++
 }
 
-console.log(`Lumivalgekesele jäi ${lumivalgekeOunad}`)
+console.log(`Lumivalgekesele jäi ${lumivalgekeOunad}`) */
