@@ -134,3 +134,24 @@ if (valik == 'ise') {
 console.log(koht)
  */
 
+// Ülesanne 2.5
+/* let kirjaSuurus = parseFloat(prompt("Sisestage kirja suurus"))
+let kirjaTeema = prompt("Sisestage kirja teema pealkiri")
+let fail = prompt("Kas kirjaga on kaasas fail? jah/ei")
+
+if (kirjaTeema == "" || kirjaSuurus >= 1){
+    console.log("Kiri on spämm")
+} else {
+    console.log("Kiri ei ole spämm")
+}
+*/
+
+// Tsüklid
+
+// Ülesanne 3.1
+/* let aratus = Number(prompt("Sisetage mitu korda äratada"))
+for (let kordus = 0; kordus < aratus; kordus++) {
+    console.log("Tõuse ja sära")
+}
+*/
+
