@@ -173,9 +173,22 @@ while (ring <= ringideArv) {
 console.log(`Porgandite koguarv on: ${porgandidKokku}.`) */
 
 // Ülesanne 3.3
-let taringuteArv = prompt("Täringute arv")
+/* let taringuteArv = prompt("Täringute arv")
 
 for(let kord = 1; kord <= taringuteArv; kord++){
     let taring = Math.ceil(Math.random() * 6)
     console.log(taring)
+} */
+
+// Ülesanne 3.4
+let poialpoisid = Number(prompt("Mitu pöialpoissi tahab õuna saada? (0-7)"))
+let lumivalgekeOunad = 14
+let poialpoiss = 1
+while(poialpoiss <= poialpoisid){
+    let ounad = Math.ceil(Math.random() * 2)
+    console.log(ounad)
+    lumivalgekeOunad = lumivalgekeOunad - ounad
+    poialpoiss++
 }
+
+console.log(`Lumivalgekesele jäi ${lumivalgekeOunad}`)
