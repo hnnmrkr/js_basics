@@ -155,3 +155,19 @@ for (let kordus = 0; kordus < aratus; kordus++) {
 }
 */
 
+// Ülesanne 3.2
+let ringideArv = prompt("Sisesta ringide arv")
+let porgandidKokku = 0
+let ring = 1
+
+while (ring <= ringideArv) {
+    // console.log(`${ring}. ring`)
+    if(ring % 2 == 0){
+
+       // console.log(`Saab ${ring} porgandit`)
+        porgandidKokku = porgandidKokku + ring
+       // console.log(porgandidKokku)
+    }
+    ring++
+}
+console.log(`Porgandite koguarv on: ${porgandidKokku}.`)
